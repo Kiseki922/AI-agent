@@ -1,0 +1,8 @@
+# 在项目根目录创建
+pip freeze > requirements.txt
+
+# 或者手动创建一个精简版本
+echo "pygame>=2.1.0
+pytmx>=3.21.7
+requests>=2.25.1
+numpy>=1.21.0" > requirements.txt
